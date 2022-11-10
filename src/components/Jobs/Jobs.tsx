@@ -1,16 +1,17 @@
-import {FC, useEffect, useState} from "react";
-import {IJob} from "../../interfaces";
-import {jobsService} from "../../services";
+import {FC, useEffect} from "react";
+
 import {Job} from "../Job/Job";
+import {useAppDispatch, useAppSelector} from "../../hooks";
+import {jobActions} from "../../redux/slices";
+
 
 const Jobs: FC = () => {
+    const {jobs} = useAppSelector(state => state.jobReducer);
+    const dispatch = useAppDispatch();
 
-    let [jobs, setJobs] = useState<IJob[]>([]);
-
-    useEffect(() => {
-        jobsService.getAll().then(value => value.data).then(jobs => setJobs(jobs))
-    }, [])
-
+    useEffect(()=>{
+        dispatch(jobActions.getAll())
+    },[dispatch])
     return (
         <div>
             {jobs.map(job => <Job job={job} key={job.id}/>)}
