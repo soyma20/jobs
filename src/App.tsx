@@ -1,10 +1,10 @@
-import React from 'react';
-import './App.css';
+import {FC} from "react";
+import {Jobs} from "./components";
 
-function App() {
-  return (
-    <h1 className="bg-black text-white">I am working</h1>
-  );
-}
+const App: FC = () => {
+    return (
+        <Jobs/>
+    );
+};
 
-export default App;
+export {App};
