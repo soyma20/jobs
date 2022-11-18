@@ -4,7 +4,7 @@ import {useState} from "react";
 const Bookmark = () => {
     const [rating, setRating] = useState(false);
     return (
-        <label>
+        <label className="sm:hidden">
             <input className="hidden"
                    type="radio"
                    name="rating"
