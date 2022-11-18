@@ -1,10 +1,9 @@
 import {FC} from "react";
+import {DetailedJob} from "../../components/DetailedJob/DetailedJob";
 
 const DetailedJobPage:FC = () => {
     return (
-        <div>
-            DetailedJobPage
-        </div>
+            <DetailedJob/>
     );
 };
 
