@@ -3,15 +3,13 @@ import {Chip} from "../Chip/Chip";
 
 interface IProps {
     chips: string[];
-    bgColor:string;
-    textColor:string;
-    borderColor:string;
+    gama: boolean
 }
 
-const Chips: FC<IProps> = ({chips,textColor,bgColor,borderColor})=> {
+const Chips: FC<IProps> = ({chips,gama})=> {
     return (
         <div  className="flex">
-            {chips.map((value, index) => <Chip chip={value} key={index} bgColor={bgColor} textColor={textColor} borderColor={borderColor}/>)}
+            {chips.map((value, index) => <Chip chip={value} key={index} gama={gama} />)}
         </div>
     );
 };
