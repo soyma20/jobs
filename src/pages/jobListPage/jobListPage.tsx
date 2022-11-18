@@ -3,9 +3,7 @@ import {Jobs} from "../../components";
 
 const JobListPage: FC = () => {
     return (
-        <div>
             <Jobs/>
-        </div>
     );
 };
 
