@@ -2,8 +2,10 @@ import {FC, useState} from "react";
 import {FaStar} from "react-icons/fa"
 
 const Rating: FC = () => {
+
     const [rating, setRating] = useState(0);
     const [hover, setHover] = useState(0);
+
     return (
         <div className="flex">
             {[...Array(5)].map((star, i) => {

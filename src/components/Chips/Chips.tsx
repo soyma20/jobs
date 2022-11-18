@@ -1,4 +1,5 @@
 import {FC} from "react";
+
 import {Chip} from "../Chip/Chip";
 
 interface IProps {

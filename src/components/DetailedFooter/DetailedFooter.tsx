@@ -1,17 +1,17 @@
-import {Chips} from "../Chips/Chips";
-import {ReturnButton} from "../ReturnButton/ReturnButton";
 import {FC} from "react";
 
+import {Chips} from "../Chips/Chips";
+import {ReturnButton} from "../ReturnButton/ReturnButton";
+
 interface IProps {
-    benefits:string[];
-    employment_type:string[];
-    pictures:string[];
+    benefits: string[];
+    employment_type: string[];
+    pictures: string[];
 }
 
-const DetailedFooter:FC<IProps> = ({benefits,pictures,employment_type}) => {
+const DetailedFooter: FC<IProps> = ({benefits, pictures, employment_type}) => {
     return (
         <div>
-
             <div className="sm:flex sm:flex-col-reverse">
                 <div className="mb-[87px] sm:mb-[63px]">
                     <h3 className="text-3xl font-bold pb-[9px] sm:mt-[55px] border-b border-[#3A4562]">Additional

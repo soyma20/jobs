@@ -1,5 +1,6 @@
 import {FC} from "react";
-import {DetailedJob} from "../../components/DetailedJob/DetailedJob";
+
+import {DetailedJob} from "../../components";
 
 const DetailedJobPage:FC = () => {
     return (

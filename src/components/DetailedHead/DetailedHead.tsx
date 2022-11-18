@@ -1,6 +1,7 @@
 import {FC} from "react";
-import {Bookmark} from "../Bookmark/Bookmark";
 import {FaShare, FaStar} from "react-icons/fa";
+
+import {Bookmark} from "../Bookmark/Bookmark";
 import {ApplyButton} from "../ApplyButton/ApplyButton";
 
 interface IProps{

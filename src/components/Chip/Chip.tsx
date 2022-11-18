@@ -15,10 +15,7 @@ const Chip: FC<IProps> = ({chip, gama}) => {
     }
 
     return (
-        <div
-            className={className}
-        >{chip}
-        </div>
+        <div className={className}>{chip}</div>
     );
 };
 

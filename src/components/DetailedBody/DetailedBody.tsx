@@ -1,4 +1,5 @@
 import {FC} from "react";
+
 import {ApplyButton} from "../ApplyButton/ApplyButton";
 
 interface IProps {
@@ -24,8 +25,7 @@ const DetailedBody: FC<IProps> = ({benefits, description, createdAt}) => {
                 <ApplyButton show={true}/>
             </div>
         </div>
-    )
-        ;
+    );
 };
 
 export {DetailedBody};

@@ -7,3 +7,6 @@ export * from './Contacts/Contacts';
 export * from './DetailedJob/DetailedJob';
 export * from './ApplyButton/ApplyButton';
 export * from './ReturnButton/ReturnButton';
+export * from './DetailedBody/DetailedBody';
+export * from './DetailedFooter/DetailedFooter';
+export * from './DetailedHead/DetailedHead';

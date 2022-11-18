@@ -1,8 +1,9 @@
 import {FaBookmark} from "react-icons/fa"
-import {useState} from "react";
+import {FC, useState} from "react";
 
-const Bookmark = () => {
+const Bookmark:FC = () => {
     const [rating, setRating] = useState(false);
+
     return (
         <label className="sm:hidden">
             <input className="hidden"

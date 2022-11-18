@@ -1,4 +1,5 @@
 import {useLocation} from "react-router-dom";
+import {FC} from "react";
 
 import {IJob} from "../../interfaces";
 import {Contacts} from "../Contacts/Contacts";
@@ -6,7 +7,7 @@ import {DetailedHead} from "../DetailedHead/DetailedHead";
 import {DetailedBody} from "../DetailedBody/DetailedBody";
 import {DetailedFooter} from "../DetailedFooter/DetailedFooter";
 
-const DetailedJob = () => {
+const DetailedJob:FC = () => {
 
     const job: IJob = useLocation().state;
 

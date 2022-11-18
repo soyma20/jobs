@@ -1,8 +1,8 @@
 import {FC, useEffect} from "react";
+import {jobActions} from "../../redux";
 
 import {Job} from "../Job/Job";
 import {useAppDispatch, useAppSelector} from "../../hooks";
-import {jobActions} from "../../redux";
 import {NavBar} from "../NavBar/NavBar";
 
 
