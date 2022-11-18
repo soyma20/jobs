@@ -3,7 +3,7 @@ import {FaCaretRight, FaCaretLeft} from "react-icons/fa"
 
 const NavBar: FC = () => {
     return (
-        <div className="w-[512px] h-[52px] shadow-md flex bg-white rounded-xl mt-[41px] mb-[64px] justify-between items-center text-center">
+        <div className="w-[512px] h-[52px] shadow-md flex bg-white rounded-xl mt-[41px] mb-[64px] justify-between items-center text-center sm:w-[396px]">
             <FaCaretLeft color="#7D859C" className="h-[18px] ml-[23px] mr-[30px]"/>
             <div className="w-[1.3px] h-[31.2px]  bg-[#DEE3EF]"></div>
             <p className="font-bold text-[#70778B] ml-[55px]  w-[31px] ">1</p>
