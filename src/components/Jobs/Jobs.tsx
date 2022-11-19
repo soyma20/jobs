@@ -14,7 +14,7 @@ const Jobs: FC = () => {
         dispatch(jobActions.getAll())
     }, [dispatch])
     return (
-        <div className="flex flex-col items-center bg-[#F5F5F5] pt-7 ">
+        <div className="flex flex-col items-center bg-light-gray pt-7 ">
             {jobs.map(job => <Job job={job} key={job.id}/>)}
             <NavBar/>
         </div>

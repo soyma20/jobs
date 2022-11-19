@@ -11,7 +11,7 @@ interface IProps {
 const DetailedBody: FC<IProps> = ({benefits, description, createdAt}) => {
     return (
         <div>
-            <p className="text-lg sm:text-xs sm:mt-[21px] mb-[7px] sm:mb-[26px] text-[#b9bcc5]">
+            <p className="text-lg sm:text-xs sm:mt-[21px] mb-[7px] sm:mb-[26px] text-posted-gray">
                 Posted {createdAt.slice(0, 10)}
             </p>
             <p className="text-lg mb-[30px] sm:mb-[43px]">{description}</p>

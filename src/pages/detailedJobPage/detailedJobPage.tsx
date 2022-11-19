@@ -2,9 +2,9 @@ import {FC} from "react";
 
 import {DetailedJob} from "../../components";
 
-const DetailedJobPage:FC = () => {
+const DetailedJobPage: FC = () => {
     return (
-            <DetailedJob/>
+        <DetailedJob/>
     );
 };
 

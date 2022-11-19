@@ -10,7 +10,7 @@ const ReturnButton: FC = () => {
     }
     return (
         <button onClick={returnToJobs}
-            className="sm:hidden flex bg-[#e4e5ea] mt-[89px] justify-center items-center w-[213px] h-[50px] rounded-lg text-[#384564] text-xs font-semibold text-white border">
+            className="sm:hidden flex bg-button-gray mt-[89px] justify-center items-center w-[213px] h-[50px] rounded-lg text-button-black text-xs font-semibold border">
             <FaArrowLeft/>
             <p className="ml-[9px] ">RETURN TO JOB BOARD</p>
         </button>
